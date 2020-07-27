@@ -1,0 +1,38 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5F1F2D29
+P -739500 648950
+F 0 "R?" H -739430 648996 50  0000 L CNN
+F 1 "R" H -739430 648905 50  0000 L CNN
+F 2 "" V -739570 648950 50  0001 C CNN
+F 3 "~" H -739500 648950 50  0001 C CNN
+	1    -739500 648950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F1F2F86
+P 16303300 1795850
+F 0 "R?" H 16303370 1795896 50  0000 L CNN
+F 1 "R" H 16303370 1795805 50  0000 L CNN
+F 2 "" V 16303230 1795850 50  0001 C CNN
+F 3 "~" H 16303300 1795850 50  0001 C CNN
+	1    16303300 1795850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
