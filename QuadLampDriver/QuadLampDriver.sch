@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:QuadLampDriver-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -35,4 +36,45 @@ F 3 "~" H 16303300 1795850 50  0001 C CNN
 	1    16303300 1795850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 5F286175
+P 1600 1350
+F 0 "R?" H 1670 1396 50  0000 L CNN
+F 1 "47k" H 1670 1305 50  0000 L CNN
+F 2 "" V 1530 1350 50  0001 C CNN
+F 3 "~" H 1600 1350 50  0001 C CNN
+	1    1600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F286233
+P 1600 1950
+F 0 "R?" H 1670 1996 50  0000 L CNN
+F 1 "10k" H 1670 1905 50  0000 L CNN
+F 2 "" V 1530 1950 50  0001 C CNN
+F 3 "~" H 1600 1950 50  0001 C CNN
+	1    1600 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1500 1600 1800
+$Comp
+L power:GND #PWR?
+U 1 1 5F28A2F6
+P 1600 2100
+F 0 "#PWR?" H 1600 1850 50  0001 C CNN
+F 1 "GND" H 1605 1927 50  0000 C CNN
+F 2 "" H 1600 2100 50  0001 C CNN
+F 3 "" H 1600 2100 50  0001 C CNN
+	1    1600 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 1050 0    50   Input ~ 0
+Control
+Wire Wire Line
+	1600 1050 1400 1050
+Wire Wire Line
+	1600 1200 1600 1050
 $EndSCHEMATC
