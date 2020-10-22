@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name New_Library)(type Legacy)(uri /home/jcgs/open-projects/github.com/hillwithsmallfields/miscPCBs/QuadLampDriver/New_Library.lib)(options "")(descr ""))
+  (lib (name vn7007ahtr)(type Legacy)(uri /home/jcgs/open-projects/github.com/hillwithsmallfields/miscPCBs/QuadLampDriver/vn7007ahtr.lib)(options "")(descr ""))
+)
