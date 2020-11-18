@@ -23,4 +23,6 @@ automotive circuits.
 
 Original application: switching my Land Rover headlamps and foglamps
 and the horn from near the devices, with big power cables coming in
-for low resistance.
+for low resistance.  I'll probably use the same circuit for spotlamps
+etc too.
+
